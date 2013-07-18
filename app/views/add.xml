@@ -1,0 +1,7 @@
+<Alloy>
+	<Window title="Add Item" modal="true" id="win">
+		<TextField id="todoTextField" hintText="What you need to do?"/>
+		<Button onClick="add">Add Item</Button>
+		<Button onClick="cancel">Cancel</Button>
+	</Window>
+</Alloy>

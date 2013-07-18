@@ -1,0 +1,7 @@
+"Window[platform=ios]":{
+	backgroundColor:"#fff"
+}
+
+"Window[platform=android]":{
+	backgroundColor:"#000"
+}

@@ -1,0 +1,18 @@
+<Alloy>
+	<Tab title="Todo">
+		<Window title="Todo">
+			<RightNavButton>
+				<Button systemButton="Ti.UI.iPhone.SystemButton.ADD"
+					onClick="showAdd"/>
+			</RightNavButton>
+			<Menu id="menu" platform="android">
+	            <MenuItem icon="/images/content_new.png"
+	            	showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS" onClick="showAdd"/>
+	        </Menu>
+	                		
+			<TableView dataCollection="todos" dataFilter="filterTodo" onClick="done">
+				<TableViewRow title="{text}" modeId="{alloy_id}" />
+			</TableView>
+		</Window>
+	</Tab>
+</Alloy>

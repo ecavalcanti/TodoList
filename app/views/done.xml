@@ -1,0 +1,9 @@
+<Alloy>
+	<Tab title="Done">
+		<Window title="Done">
+			<TableView dataCollection="todos" dataFilter="filterDone" onClick="showDetails">
+				<TableViewRow title="{text}" modeId="{alloy_id}" />
+			</TableView>
+		</Window>
+	</Tab>
+</Alloy>
